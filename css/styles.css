@@ -1,0 +1,72 @@
+html {
+    margin: 16px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(19, 157, 211);
+}
+
+h1 {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(148 199 61);
+    color: white;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5%;
+    border: rgb(41, 38, 38) 1rem outset;
+}
+
+h4 {
+    color: rgb(66, 206, 90);
+}
+
+h5 {
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.container {
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.boxprix {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    border: gray 2px outset;
+    box-shadow: -0.5em 0 2rem rgb(0, 0, 0);
+}
+
+.inline {
+    display: inline-flex;
+    font-style: italic
+}
+
+.btnstyle {
+    display: block;
+    position: relative;
+    background-color: #5bc0de;
+    color: white;
+    border: black 2px outset;
+    box-shadow: -0.1em 0 0.5rem rgb(0, 0, 0);
+    margin: auto;
+    width: 150px;
+    height: 35px;
+}
+
+.btnstyle:hover {
+    border: black 3.5px outset;
+    box-shadow: -0.1em 0 0.5rem rgb(0, 0, 0);
+    cursor: pointer;
+}
